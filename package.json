@@ -1,0 +1,14 @@
+{
+  "name": "phaser-ondamaged-signal",
+  "version": "0.0.0",
+  "description": "Adds Phaser.Sprite#onDamaged signal",
+  "main": "index.js",
+  "scripts": {
+    "start": "coffeebar --watch index.coffee"
+  },
+  "author": "samme",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "*"
+  }
+}

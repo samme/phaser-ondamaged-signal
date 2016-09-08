@@ -1,0 +1,24 @@
+{
+  "name": "phaser-ondamaged-signal",
+  "description": "Adds Phaser.Sprite#onDamaged signal",
+  "main": "index.js",
+  "authors": [
+    "samme"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "signals"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "*"
+  }
+}
