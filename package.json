@@ -1,6 +1,6 @@
 {
   "name": "phaser-ondamaged-signal",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Adds Phaser.Sprite#onDamaged Signal",
   "main": "index.js",
   "scripts": {
