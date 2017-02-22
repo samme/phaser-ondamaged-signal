@@ -1,10 +1,12 @@
 {
   "name": "phaser-ondamaged-signal",
   "version": "0.0.0",
-  "description": "Adds Phaser.Sprite#onDamaged signal",
+  "description": "Adds Phaser.Sprite#onDamaged Signal",
   "main": "index.js",
   "scripts": {
-    "start": "coffeebar --watch index.coffee"
+    "start": "coffeebar --watch .",
+    "preversion": "eslint .",
+    "pub": "np --no-cleanup"
   },
   "author": "samme",
   "license": "MIT",
@@ -13,5 +15,17 @@
   },
   "devDependencies": {
     "coffeebar": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samme/phaser-ondamaged-signal.git"
+  },
+  "keywords": [
+    "phaser",
+    "phaser-signal"
+  ],
+  "bugs": {
+    "url": "https://github.com/samme/phaser-ondamaged-signal/issues"
+  },
+  "homepage": "https://github.com/samme/phaser-ondamaged-signal#readme"
 }
