@@ -1,10 +1,3 @@
-<!doctype html>
-<meta charset="utf-8">
-<title>Phaser onDamaged event example</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.js"></script>
-<script src="index.js"></script>
-<script>
-
 var logOnDamaged = function (amount, health, maxHealth, sprite){
     console.log("sprite '" + sprite.name + "' damage: " + amount + " health: " + health + " maxHealth: " + maxHealth);
 };
@@ -43,6 +36,3 @@ new Phaser.Game({
         }
     }
 });
-
-</script>
-
