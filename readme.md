@@ -1,8 +1,3 @@
-You could use it to play an animation, start emitters, or update health bars.
-
-Use
----
-
 It's dispatched after damage is applied but **before** the sprite is killed (if necessary).
 
 ```javascript
