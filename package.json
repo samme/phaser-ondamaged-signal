@@ -1,7 +1,7 @@
 {
   "name": "phaser-ondamaged-signal",
   "version": "1.0.0",
-  "description": "Adds Phaser.Sprite#onDamaged Signal",
+  "description": "Respond to `sprite.damage` events",
   "main": "index.js",
   "scripts": {
     "start": "coffeebar --watch .",
